@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.board {
+    padding: 3em 0 0;
+    text-align: center;
+    background: radial-gradient(rgb(187, 128, 255), black);
+    height: 100vh;
+}
+
+.row div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 48px Helvetica, sans-serif;
+    color: lime;
+}
+
+.row {
+    margin: auto;
+    width: 308px;
+    clear: both;
+    display: flex;
+}
+
+.top {
+    border-bottom: 2px lime solid;
+}
+
+.right {
+    border-left: 2px lime solid;
+}
+
+.bottom {
+    border-top: 2px lime solid;
+}
+
+.left {
+    border-right: 2px lime solid;
+}
+
+h1 {
+    font: 4em 'Leckerli One', serif;
+    color: white;
+}
+
+p {
+    font: 2em Arial, Calibri, sans-serif;
+    color: white;
+}
